@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color-Picker</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="index.js"></script>
+	<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+</head>
+<body>
+<div id="fade"></div>
+<div id="not_f" style="display: none;">
+	<div>
+		<p align="center" id="notice"></p>
+		<a class="close-icon" href='#'><i aria-hidden='true' class='fa fa-times'></i></a>
+	</div>
+</div>
+<div class="main">
+	<div class="data-table">
+		<table class="table table-stripped" id="myTable">
+			<thead>
+				<tr>
+					<th id="demo">Name</th>
+					<th>Subject</th>
+					<th>Marks</th>
+					<th>Grade</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+				
+			</tbody>
+		</table>
+		<div class="btn-row"><button class="add-new">Add New</button></div>
+	</div>
+</div>
+<div id="add" style="display: none;">
+	<div class="modal-wrap">
+		<h4>Add New</h4>
+		<form id="modal_form">
+			<div>
+				<label>Name</label><br>
+				<input id="name" type="text" name="name">
+			</div>
+			<div>
+				<label>Subject</label><br>
+				<input id="subject" type="text" name="subject">
+			</div>
+			<div>
+				<label>marks</label><br>
+				<input id="marks" type="text" name="marks">
+			</div>
+		</form>
+		<div>
+		<button id="myAdd" class="add-btn">Add</button>
+		<button onclick="update_row()" id="update" class="update-btn">Update</button>
+		<button class="add-btn close-btn">Close</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

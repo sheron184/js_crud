@@ -1,0 +1,143 @@
+body{
+	font-family: cursive;
+}
+th{
+	font-weight: lighter;
+}
+.wrapper{
+	width: 100%;
+	display: block;
+	height: 100vh;
+	background-color: #111111a6;
+	position: fixed;
+}
+.main{
+	padding: 20px;
+}
+.data-table{
+	height: 100%;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 1px 1px 5px 0px;
+	border-radius: 10px;
+}
+body{
+	background-color: #f1ecec;
+	margin:0px;
+}
+table{
+	width: 100%;
+}
+thead tr{
+	width: 100%;
+}
+thead tr th{
+	padding:15px;
+}
+tbody tr td{
+	text-align: center;
+}
+.btn-row{
+	display: flex;
+	justify-content: flex-end;
+}
+.add-new{
+	background-color: #4c4ce4;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 10px 0 10px;
+    cursor: pointer;
+}
+.add-new:hover{
+	background-color: #19198a;
+}
+.modal{
+	padding: 20px;
+	display: block !important;
+	position: absolute;
+	top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.modal-wrap{
+	background-color: #fff;
+    width: fit-content;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px 0px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form  div{
+	padding: 15px;
+}
+form div input{
+	border: 1px solid #ccc;
+	background-color: #fbfbfb;
+	padding: 10px;
+	border-radius: 5px;
+}
+h4{
+	margin:5px;
+}
+.add-btn{
+	border: none;
+	background-color:blue;
+	color: #fff;
+	border-radius:5px; 
+	padding: 8px;
+	cursor: pointer;
+}
+.close-btn{
+	background-color: red !important;
+}
+a{
+	text-decoration: none;
+}
+.edit{
+	color: blue;
+}
+.delete{
+	color: red;
+}
+.update-btn{
+	border: none;
+	background-color:green;
+	color: #fff;
+	border-radius:5px; 
+	padding: 8px;
+	cursor: pointer;
+}
+.notification{
+	padding: 20px;
+	display: block !important;
+}
+.notification div{
+	height: 40px;
+    background-color: #10ff0017;
+    border: 1px solid #44af32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#notice{
+	color:#44af32;
+}
+.close-icon{
+	position: absolute;
+    top: 16px;
+    right: 25px;
+    color: green;
+}
+.display{
+	display: none;
+}
